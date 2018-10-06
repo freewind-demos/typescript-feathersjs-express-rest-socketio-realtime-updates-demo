@@ -19,7 +19,6 @@ export default class Messages {
 
     // Throw an error if it wasn't found
     if (!message) {
-      // TODO not work here
       throw new NotFound(`Message with id ${id} not found`);
     }
 

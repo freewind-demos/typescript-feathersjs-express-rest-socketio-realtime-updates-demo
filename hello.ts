@@ -9,11 +9,11 @@ app.use(express.urlencoded({extended: true}));
 
 app.configure(express.rest());
 
-app.use(express.errorHandler());
-
 const messages = new Messages();
-
 app.use('messages', messages);
+
+// Notice: order is important, should place at last
+app.use(express.errorHandler());
 
 app.listen(3000, async () => {
   await messages.create({text: 'Hello'});
