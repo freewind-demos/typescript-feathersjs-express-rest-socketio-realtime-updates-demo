@@ -8,3 +8,4 @@ npm start
 
 Then visit http://localhost:3000, open the console to see updates, and open more of this page.
 
+![demo](./images/demo.jpg)
