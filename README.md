@@ -1,17 +1,10 @@
-TypeScript Feathersjs Express Rest Demo
-=======================================
+TypeScript Feathersjs Express Rest and SocketIO Realtime Updates Demo
+=====================================================================
 
 ```
 npm install
-npm run demo
+npm start
 ```
 
-Then visit http://localhost:3000/messages and all kinds of rest requests of it
+Then visit http://localhost:3000, open the console to see updates, and open more of this page.
 
-```
-brew install httpie
-http http://localhost:3000/messages
-http POST http://localhost:3000/messages text=hello
-http PUT http://localhost:3000/messages/0 text=hello000
-http DELETE http://localhost:3000/messages/0
-```
